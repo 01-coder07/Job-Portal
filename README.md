@@ -1,116 +1,70 @@
-🧭 InsiderJobs — Job Portal Web Application
+# 🧭 InsiderJobs — Job Portal Web Application
 
-A fully responsive job portal web application built with React.js and Tailwind CSS, enabling candidates to browse, search, and filter job listings — and recruiters to post and manage opportunities.
+A fully responsive **job portal web application** built with **React.js** and **Tailwind CSS**, enabling candidates to browse, search, and filter job listings — and recruiters to manage opportunities.
 
-🔗 Live Demo: https://job-portal-sage-pi.vercel.app
+🔗 **Live Demo:** https://job-portal-sage-pi.vercel.app  
 
-📸 Preview
-Home Page
-Job Listings
-Job Detail
-Hero + Search
-Filter by Category & Location
-Full JD + Related Jobs
-✨ Features
-👤 Candidate Side
-🔍 Hero Section with role/skill/company search and city/remote search
-📊 Live Stats — 12K+ Live Roles, 6K+ Hiring Teams, 25K+ Active Candidates
-💼 Latest Jobs — paginated job cards from top companies
-🧠 Filter by Category
-Programming
-Data Science
-Designing
-Networking
-Management
-Marketing
-Cybersecurity
-📍 Filter by Location
-Bangalore, Hyderabad, Mumbai, Chennai
-Washington, California, New York
-📄 Job Detail Page
-Full job description
-Key responsibilities
-Required skills
-CTC
-Experience level
-“More Jobs from this Company”
-🚀 Apply Now functionality
-🏢 Recruiter Side
-🔐 Recruiter Login (separate entry point)
-📊 Recruiter Dashboard (/dashboard)
-📝 Post and manage job listings
-🔐 Authentication
-Powered by Clerk
-Supports:
-Google OAuth
-Email/Username login
-Secure, session-based authentication
-Protected recruiter routes
-🛠️ Tech Stack
-Technology	Usage
-React.js	Frontend UI (Hooks & Components)
-Tailwind CSS	Styling (Responsive design)
-React Router	Client-side routing
-Clerk	Authentication
-JSON	Mock job data
-Vercel	Deployment & CI/CD
-🚀 Getting Started
-📌 Prerequisites
-Node.js v18+
-npm or yarn
-⚙️ Installation
-# Clone the repository
+---
+
+## 📸 Preview
+
+- Home Page  => <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/cdbff6ef-e131-4e9a-940b-45fc9c969839" />
+
+- Job Listings => <img width="1146" height="884" alt="image" src="https://github.com/user-attachments/assets/c3c0c19d-4cbc-4ff9-b4be-a540d9fc486f" />
+  
+- Job Detail  => <img width="1417" height="886" alt="image" src="https://github.com/user-attachments/assets/eb3f42a3-2cf6-4eeb-9212-1629cb2b829c" />
+
+- Search & Filters => <img width="369" height="779" alt="image" src="https://github.com/user-attachments/assets/82c63f11-0291-4c52-8f67-82b53becbf98" />
+
+- Related Jobs => <img width="588" height="871" alt="image" src="https://github.com/user-attachments/assets/a25bb376-31c1-45b4-a31d-bae6681b32f5" />
+  
+
+---
+
+## ✨ Features
+
+### 👤 Candidate Side
+
+- 🔍 Search jobs by role, skill, or company  
+- 📍 Filter by location (city/remote)  
+- 📊 Live stats (Jobs, Companies, Candidates)  
+- 💼 Browse latest job listings  
+- 🧠 Category filters (Programming, Data Science, etc.)  
+- 📄 Detailed job pages  
+- 🚀 Apply Now functionality  
+
+---
+
+### 🏢 Recruiter Side
+
+- 🔐 Recruiter login  
+- 📊 Dashboard (`/dashboard`)  
+- 📝 Post and manage job listings  
+
+---
+
+### 🔐 Authentication
+
+- Clerk Authentication  
+- Google OAuth + Email login  
+- Protected routes  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS  
+- **Routing:** React Router  
+- **Auth:** Clerk  
+- **Data:** JSON (mock data)  
+- **Deployment:** Vercel  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/01-coder07/Job-Portal.git
-
-# Navigate to client
 cd Job-Portal/client
-
-# Install dependencies
-npm install
-🔑 Environment Variables
-
-Create a .env file inside the client/ directory:
-
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-
-👉 Get your key from: https://clerk.com
- → Create Application → API Keys
-
-▶️ Run Locally
-npm run dev
-
-App runs at:
-👉 http://localhost:5173
-
-📁 Project Structure
-Job-Portal/
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Route-level pages
-│   │   └── data/           # JSON job data
-│   ├── .env                # Environment variables
-│   └── vite.config.js
-└── server/                 # Backend (in progress)
-🌐 Deployment
-Frontend deployed on Vercel
-Root directory set to client/
-Environment variables configured in Vercel dashboard
-Auto-deploy on every push to main
-🔮 Upcoming Features
-🔗 MongoDB integration
-🛠️ Recruiter job posting via REST API
-📊 Candidate application tracking
-🔐 JWT-based role management
-👨‍💻 Author
-
-Harshit Pant
-
-🐙 GitHub: https://github.com/01-coder07
-💼 LinkedIn: https://linkedin.com/in/harshit-pant-913690296
-💻 LeetCode: https://leetcode.com/u/codingkabaap
-⭐ Support
-
-If you like this project:
-👉 Give it a ⭐ on GitHub
-👉 Share it with others
