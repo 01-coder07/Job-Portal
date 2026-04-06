@@ -20,6 +20,26 @@ A fully responsive **job portal web application** built with **React.js** and **
   
 
 ---
+## 🚀 Key Highlights
+
+- Built a fully responsive job portal with modern UI/UX  
+- Implemented authentication using Clerk (Google OAuth + Email)  
+- Designed recruiter dashboard for job management  
+- Optimized search & filtering for better user experience  
+- Deployed on Vercel with CI/CD pipeline
+
+ ## 📈 Learnings
+
+- Improved understanding of React component architecture  
+- Gained experience with authentication systems (Clerk)  
+- Learned deployment and environment configuration  
+- Built scalable UI using Tailwind CSS
+
+  ## ⚠️ Limitations
+
+- Currently uses mock JSON data  
+- Backend APIs under development  
+- No real-time application tracking yet   
 
 ## ✨ Features
 
