@@ -196,8 +196,8 @@ export const jobsData = [
         level: "Intermediate Level",
         companyId: {
             "_id": "670e4d25ca9fda8f1bf359b9",
-            "name": "Walmart",
-            "email": "walmart@demo.com",
+            "name": "Google",
+            "email": "Google@demo",
             "image": walmart_logo,
         },
         description: `
